@@ -1,0 +1,31 @@
+/* Cell.css */
+.cell-container {
+  position: relative;
+  /* width: 100px;
+  height: 100px; */
+  border: 2px solid #333;
+  text-align: center;
+  margin: 10px;
+ 
+}
+  
+.fill-level {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #90ee90; /* Light green fill */
+}
+
+.fill-level-full {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8aba8; /* Light red fill */
+}
+
+.cell-content {
+  position: relative;
+  z-index: 1;
+  padding: 5px;
+  font-size: 0.9em;
+}

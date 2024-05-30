@@ -1,0 +1,27 @@
+.changed {
+  background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 2s ease infinite;
+}
+
+.reducedimg{
+  width:100%;
+  max-width:600px;
+}
+
+.imgsmall{
+  width:100%;
+  max-width:60px;
+}
+
+
+.audioHidden {
+  display:none;
+}
+
+.recorder {
+  width: auto;
+  height: auto;
+}

@@ -1,0 +1,32 @@
+/* Grid.css */
+.grid-table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-table td {
+    border: 6px solid #8d8d8d;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .filling-cell {
+    background-color: #ffdd57; /* Light yellow for filling */
+  }
+  
+  .empty-cell {
+    background-color: #add8e6; /* Light blue for empty */
+  }
+  
+  .closed-cell {
+    background-color: #90ee90; /* Light green for closed */
+  }
+  
+  .na-cell {
+    background-color: #d3d3d3; /* Light gray for N/A */
+  }
